@@ -9,7 +9,7 @@ html {
   position: relative;
   border-top: 7px solid #b3fbff;
   border-bottom: 7px solid #b3fbff;
-  padding-bottom: 4.5em;
+  padding-bottom: 3em;
 
 }
 
@@ -38,7 +38,7 @@ p {
 
 .para {
   opacity: 0;
-  padding-left: 2em;
+  padding-left: 10em;
   text-shadow: 1px 1px rgba(0, 0, 0, .5);
   animation: blur 1s 600ms linear forwards;
   transform-origin: left center;
@@ -89,7 +89,7 @@ img {
 .cone {
   top: -1300px;
   animation: cone 300ms linear forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
   left: calc(50% + 200px);
   z-index: 11;
 
@@ -107,66 +107,63 @@ img {
     filter: blur(0);
   }
 
-
 }
 
 @keyframes cherry {
 
   0% {
-   top: -1300px;
- }
+    top: -1300px;
+  }
 
- 100% {
-   top: -50px;
- }
+  100% {
+    top: -50px;
+  }
 }
 
 @keyframes fudge {
 
   0% {
-   top: -1300px;
- }
+    top: -1300px;
+  }
 
- 100% {
-   top: +40px;
- }
+  100% {
+    top: +40px;
+  }
 }
 
 @keyframes chocolate-chip {
 
   0% {
-   top: -1300px;
- }
+    top: -1300px;
+  }
 
- 100% {
-   top: +100px;
- }
-
+  100% {
+    top: +100px;
+  }
 
 }
 
 @keyframes mint-chip {
 
   0% {
-   top: -1300px;
- }
+    top: -1300px;
+  }
 
- 100% {
-   top: +175px;
- }
-
+  100% {
+    top: +175px;
+  }
 
 }
 
 @keyframes cone {
 
   0% {
-   top: -1400px;
- }
+    top: -1300px;
+  }
 
- 100% {
-   top: 275px;
- }
+  100% {
+    top: 275px;
+  }
 
 }
 
