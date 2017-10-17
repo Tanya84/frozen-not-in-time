@@ -4,5 +4,177 @@ html {
 }
 
 .banner {
-  background-color:
+  background: repeating-linear-gradient(-30deg, #c9fcff, #c9fcff 10px, #d4fdff 10px, #d4fdff 20px);
+  overflow: hidden;
+  position: relative;
+  border-top: 7px solid #b3fbff;
+  border-bottom: 7px solid #b3fbff;
+  padding-bottom: 4.5em;
+
+}
+
+h1 {
+  color: #990073;
+  transform: rotate(-10deg);
+}
+
+p {
+  color: #c09;
+  transform: rotate(-5deg);
+  max-width: 19em;
+}
+
+.btn-ghost {
+  text-decoration: none;
+  color: #c09;
+  border-color: #990073;
+}
+
+.btn-ghost:hover {
+  border: 1px solid #990073;
+  color: #c09;
+  background-color: #d4fdff;
+}
+
+.para {
+  opacity: 0;
+  padding-left: 2em;
+  text-shadow: 1px 1px rgba(0, 0, 0, .5);
+  animation: blur 1s 600ms linear forwards;
+  transform-origin: left center;
+  animation-delay: 1s;
+}
+
+img {
+  width: 175px;
+  position: absolute;
+}
+
+.cherry {
+  top: -1300px;
+  animation: cherry 700ms linear forwards;
+  animation-delay: 1s;
+  left: calc(50% + 200px);
+  z-index: 10;
+
+}
+
+.vanilla-fudge {
+  top: -1300px;
+  animation: fudge 600ms linear forwards;
+  animation-delay: 1s;
+  left: calc(50% + 200px);
+  z-index: 9;
+
+}
+
+.chocolate-chip {
+  top: -1300px;
+  animation: chocolate-chip 500ms linear forwards;
+  animation-delay: 1s;
+  left: calc(50% + 200px);
+  z-index: 8;
+
+}
+
+.mint-chip {
+  top: -1300px;
+  animation: mint-chip 400ms linear forwards;
+  animation-delay: 1s;
+  left: calc(50% + 200px);
+  z-index: 7;
+
+}
+
+.cone {
+  top: -1300px;
+  animation: cone 300ms linear forwards;
+  animation-delay: 2s;
+  left: calc(50% + 200px);
+  z-index: 11;
+
+}
+
+@keyframes blur {
+
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+
+
+}
+
+@keyframes cherry {
+
+  0% {
+   top: -1300px;
+ }
+
+ 100% {
+   top: -50px;
+ }
+}
+
+@keyframes fudge {
+
+  0% {
+   top: -1300px;
+ }
+
+ 100% {
+   top: +40px;
+ }
+}
+
+@keyframes chocolate-chip {
+
+  0% {
+   top: -1300px;
+ }
+
+ 100% {
+   top: +100px;
+ }
+
+
+}
+
+@keyframes mint-chip {
+
+  0% {
+   top: -1300px;
+ }
+
+ 100% {
+   top: +175px;
+ }
+
+
+}
+
+@keyframes cone {
+
+  0% {
+   top: -1400px;
+ }
+
+ 100% {
+   top: 275px;
+ }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-content {
+    padding-left: 12em;
+    padding-top: 1.5em;
+  }
+
 }
